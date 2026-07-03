@@ -1,4 +1,10 @@
+import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+%matplotlib inline
+import warnings
+warnings.filterwarnings('ignore')
 
 def load_raw_data(path="data/raw/bank-additional-full.csv"):
     df = pd.read_csv(path, sep=';')
