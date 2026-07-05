@@ -19,7 +19,7 @@ Pineline "Tiền xử lý" - bước 3 trong khung 8 bước
         df.astype()                             Chỉnh sửa kiểu dữ liệu
 
     Output:
-    data/processed/bank_clean.csv + data/processed/version_info.json
+    data/processed/bank-clean.csv + data/processed/version_info.json
 """
 
 import json
