@@ -27,7 +27,7 @@ from datetime import datetime
 
 import pandas as pd
 
-raw_path = '../data/processed/bank-additional-full.csv'
+raw_path = '../data/raw/bank-additional-full.csv'
 out_path = '../data/processed/bank-final.csv'
 out_version_path = '../data/processed/version_info.json'
 
