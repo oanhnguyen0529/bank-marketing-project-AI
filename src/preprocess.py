@@ -19,7 +19,7 @@ Pineline "Tiền xử lý" - bước 3 trong khung 8 bước
         df.astype()                             Chỉnh sửa kiểu dữ liệu
 
     Output:
-    data/processed/bank_final.csv + data/processed/version_info.json
+    data/processed/bank_clean.csv + data/processed/version_info.json
 """
 
 import json
@@ -28,7 +28,7 @@ from datetime import datetime
 import pandas as pd
 
 raw_path = '../data/raw/bank-additional-full.csv'
-out_path = '../data/processed/bank-final.csv'
+out_path = '../data/processed/bank-clean.csv'
 out_version_path = '../data/processed/version_info.json'
 
 numeric_cols = [
